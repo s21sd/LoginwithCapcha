@@ -1,0 +1,117 @@
+body {
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.registration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    box-shadow: 5px 5px 10px #545454;
+    border-radius: 10px;
+}
+
+.registation_container {
+    display: flex;
+    min-height: 600px;
+}
+
+.registation_image {
+    background-image: url(./img/imagejpg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: none;
+    flex-basis: 40%;
+    position: relative;
+}
+
+@media(min-width: 480px) {
+    .registation_image{
+        display: block;
+        
+    }
+}
+.registation_image .title{
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+.registation_image .site{
+    color:#fff ;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 14px;
+}
+
+.registation_image .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.registration_form
+{
+    padding: 60px 15px;
+
+}
+.submit{
+    box-shadow: 5px 5px 10px #545454;
+    border-radius: 10px;
+    position: absolute;
+    right: 80px;
+
+}
+
+@media(min-width:768)
+{
+    .registration_form{
+        padding: 60px;
+        flex-basis:60% ;
+
+    }
+}
+
+.registration_form .title{
+    color: #ffff;
+    margin-bottom: 50px;
+    position: relative;
+}
+.registration_form .title::before{
+    content:'';
+    border-bottom: 3px solid #212529;
+    position: absolute;
+    bottom: -8px;
+    width: 20%;
+    border-radius: 5px;
+}
+.registration_form ,.form-label,.registration_form, .form-check-label{
+   color: #fff;
+
+}
+.registration_form .form-control{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.submit{
+    box-shadow: 5px 5px 10px #545454;
+    border-radius: 10px;
+    position: absolute;
+    right: 180px;
+
+}
