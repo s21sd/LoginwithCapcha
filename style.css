@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/bg.jpg);
+    background-image: url(img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -23,7 +23,7 @@ body {
 }
 
 .registation_image {
-    background-image: url(/img/imagejpg.jpg);
+    background-image: url(img/imagejpg.jpg);
     background-size: cover;
     background-position: center;
     display: none;
